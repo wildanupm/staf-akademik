@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>KMP Academic Staff</title>
+	<style type="text/css">body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+    }
+    header {
+      background-color: #800000; /* warna rasmi UPM */
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background: #eee;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #800000;
+      font-weight: bold;
+    }
+    .section-title {
+      color: #800000;
+      margin: 1rem;
+      text-align: left; /* kiri */
+    }
+    .staff-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1rem;
+      padding: 1rem;
+    }
+    .staff-card {
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 1rem;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      text-align: left; /* kiri */
+    }
+    .staff-card img {
+      float: left;
+      margin-right: 1rem;
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 6px;
+      border: 2px solid #800000;
+    }
+    .staff-card h3 {
+      margin-top: 0;
+      color: #004080;
+    }
+    .staff-card p {
+      margin: 0.3rem 0;
+    }
+    .staff-card a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    .staff-card a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 600px) {
+      .staff-card {
+        font-size: 0.9rem;
+        padding: 0.8rem;
+      }
+      .staff-card img {
+        width: 100px;
+        height: 100px;
+        float: none;
+        display: block;
+        margin: 0 auto 1rem auto;
+      }
+    }
+	</style>
+</head>
+<body>
+<header>
+<h1>Department of Mechanical and Manufacturing Engineering</h1>
+
+<p>Academic Staff &ndash; KMP</p>
+</header>
+
+<nav><a href="#head">Head of Department</a> <a href="#professors">Professors</a> <a href="#assoc-professors">Associate Professors</a> <a href="#senior-lecturers">Senior Lecturers</a></nav>
+
+<main><!-- Ketua Jabatan -->
+<section id="head">
+<h2 class="section-title">Head of Department</h2>
+
+<article class="staff-card"><img alt="Head of Department" src="images/head_kmp.jpg" />
+<h3>Ir. Prof. Dr. Ketua Jabatan</h3>
+
+<p><strong>Area of Interest:</strong> Manufacturing Systems, Engineering Management</p>
+
+<p><strong>Tel:</strong> 03-9769 6001</p>
+
+<p><strong>Email:</strong> <a href="mailto:ketua@upm.edu.my">ketua@upm.edu.my</a></p>
+
+<p><a href="#">ORCID</a> | <a href="#">CV</a></p>
+</article>
+</section>
+<!-- Professors -->
+
+<section id="professors">
+<h2 class="section-title">Professors</h2>
+
+<div class="staff-list">
+<article class="staff-card"><img alt="Prof. Ahmad" src="images/prof_ahmad.jpg" />
+<h3>Prof. Ir. Dr. Ahmad bin Ali</h3>
+
+<p><strong>Area of Interest:</strong> Advanced Materials, Manufacturing Systems</p>
+
+<p><strong>Tel:</strong> 03-9769 6000</p>
+
+<p><strong>Email:</strong> <a href="mailto:ahmad@upm.edu.my">ahmad@upm.edu.my</a></p>
+
+<p><a href="#">ORCID</a> | <a href="#">CV</a></p>
+</article>
+</div>
+</section>
+<!-- Associate Professors -->
+
+<section id="assoc-professors">
+<h2 class="section-title">Associate Professors</h2>
+
+<div class="staff-list">
+<article class="staff-card"><img alt="Assoc. Prof. Dr. Mohd Idris Shah" src="images/idris_shah.jpg" />
+<h3>Assoc. Prof. Dr. Mohd Idris Shah bin Ismail</h3>
+
+<p><strong>Area of Interest:</strong> Non-traditional Machining, Process Modeling and Simulation</p>
+
+<p><strong>Tel:</strong> 03-9769 6336</p>
+
+<p><strong>Email:</strong> <a href="mailto:ms_idris@upm.edu.my">ms_idris@upm.edu.my</a></p>
+
+<p><a href="#">ORCID</a> | <a href="#">CV</a></p>
+</article>
+</div>
+</section>
+<!-- Senior Lecturers -->
+
+<section id="senior-lecturers">
+<h2 class="section-title">Senior Lecturers</h2>
+
+<div class="staff-list">
+<article class="staff-card"><img alt="Dr. Siti" src="images/dr_siti.jpg" />
+<h3>Dr. Siti Ujila binti Osman</h3>
+
+<p><strong>Area of Interest:</strong> Robotics, Control Systems</p>
+
+<p><strong>Tel:</strong> 03-9769 6123</p>
+
+<p><strong>Email:</strong> <a href="mailto:siti@upm.edu.my">siti@upm.edu.my</a></p>
+
+<p><a href="#">ORCID</a> | <a href="#">CV</a></p>
+</article>
+</div>
+</section>
+</main>
+-</body>
+</html>
